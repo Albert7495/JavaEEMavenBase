@@ -22,8 +22,7 @@ public class CatalogFacadeEJB {
         return catalogService.getUser();
     }
     
-    
-    public List<CatalogsTO> getEstadoList(String pais){
+ public List<CatalogsTO> getEstadoList(String pais){
     	
     	return catalogService.getEstados(pais);
     }

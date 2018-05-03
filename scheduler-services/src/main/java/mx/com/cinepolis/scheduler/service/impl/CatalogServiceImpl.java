@@ -29,6 +29,7 @@ public class CatalogServiceImpl implements CatalogService{
     	
     	if(pais.equals("Mexico")) {
     		
+    	System.out.println(pais);
     		catalogsTOList.add(new CatalogsTO() {{
     			setId(1);
     			setName("Puebla");

@@ -21,13 +21,6 @@
 		</dependency>
 		
 		
-		<dependency>
-       <groupId>com.oracle.weblogic</groupId>
-       <artifactId>weblogic-server-pom</artifactId>
-       <version>12.1.2-0-0</version>
-       <type>pom</type>
-       <scope>provided</scope>
-      </dependency>
 		
 		<dependency>
 			<groupId>mx.com.cinepolis.scheduler</groupId>
